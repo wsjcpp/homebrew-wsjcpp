@@ -7,10 +7,13 @@ class NlohmannJson < Formula
     head "https://github.com/wsjcpp/wsjcpp.git", :branch => "master"
   
     depends_on "cmake"
-  
+    depends_on "curl-openssl"
+    depends_on "pkg-config"
+
     def install
         system "cmake", "."
         system "make"
+        
         system "cp", "-f", "./wsjcpp", "/usr/local/bin/"
     end
   end
