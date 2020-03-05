@@ -9,9 +9,18 @@ class Wsjcpp < Formula
     depends_on "cmake"
     depends_on "curl-openssl"
     depends_on "pkg-config"
-
+    depends_on :xcode
+    
+    bottle do
+        cellar :any
+        rebuild 1
+    end
+    
     def install
-        system "cmake", "."
-        system "make", "install"
+        bin.mkpath
+        system "cmake", "-DCMAKE_INSTALL_PREFIX:PATH=#{prefix}" , "."
+        system "make"
+        system "cp", "./wsjcpp", "#{prefix}/bin/wsjcpp"
+        bin.install_symlink
     end
   end
