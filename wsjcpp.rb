@@ -3,7 +3,7 @@ class Wsjcpp < Formula
     homepage "https://github.com/wsjcpp/wsjcpp"
     version "v0.0.1"
     url "https://github.com/wsjcpp/wsjcpp/archive/v0.0.1.tar.gz"
-    sha256 "b09817105307d5bc70c55a14d5f74922472cebd797ab54146edc4814db5f296b"
+    sha256 "2495662e5b4ac15b628cd18bfbb4f6f016f71fff67e6e98d9d0cf16980bcf6fd"
     head "https://github.com/wsjcpp/wsjcpp.git", :branch => "master"
   
     depends_on "cmake"
@@ -12,8 +12,6 @@ class Wsjcpp < Formula
 
     def install
         system "cmake", "."
-        system "make"
-
-        system "cp", "-f", "./wsjcpp", "/usr/local/bin/"
+        system "make", "install"
     end
   end
