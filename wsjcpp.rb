@@ -1,4 +1,4 @@
-class NlohmannJson < Formula
+class Wsjcpp < Formula
     desc "Yet one... C++ Package Manager"
     homepage "https://github.com/wsjcpp/wsjcpp"
     version "v0.0.1"
@@ -13,7 +13,7 @@ class NlohmannJson < Formula
     def install
         system "cmake", "."
         system "make"
-        
+
         system "cp", "-f", "./wsjcpp", "/usr/local/bin/"
     end
   end
