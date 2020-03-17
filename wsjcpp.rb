@@ -1,9 +1,9 @@
 class Wsjcpp < Formula
     desc "Yet one... C++ Package Manager"
     homepage "https://github.com/wsjcpp/wsjcpp"
-    version "v0.0.1"
-    url "https://github.com/wsjcpp/wsjcpp/archive/v0.0.1.tar.gz"
-    sha256 "2495662e5b4ac15b628cd18bfbb4f6f016f71fff67e6e98d9d0cf16980bcf6fd"
+    version "v0.0.2"
+    url "https://github.com/wsjcpp/wsjcpp/archive/v0.0.2.tar.gz"
+    sha256 "e8d135f31d1885c5edd9f615ae496021f4ec015b6536c502875bbc346deaa338"
     head "https://github.com/wsjcpp/wsjcpp.git", :branch => "master"
   
     depends_on "cmake"
