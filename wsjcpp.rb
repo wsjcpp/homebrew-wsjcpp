@@ -23,4 +23,8 @@ class Wsjcpp < Formula
         system "cp", "./wsjcpp", "#{prefix}/bin/wsjcpp"
         bin.install_symlink
     end
+
+    test do
+        system bin/"wsjcpp", "version"
+    end
   end
