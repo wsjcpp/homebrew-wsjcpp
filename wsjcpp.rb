@@ -11,10 +11,11 @@ class Wsjcpp < Formula
   end
 
   depends_on "cmake"
-  depends_on "curl-openssl"
   depends_on "pkg-config"
   depends_on :xcode
 
+  uses_from_macos "curl-openssl"
+  
   def install
     bin.mkpath
     system "cmake", "-DCMAKE_INSTALL_PREFIX:PATH=#{prefix}", "."
