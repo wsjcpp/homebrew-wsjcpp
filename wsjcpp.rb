@@ -1,7 +1,7 @@
 class Wsjcpp < Formula
     desc "Yet one... C++ Package Manager"
     homepage "https://github.com/wsjcpp/wsjcpp"
-    version "v0.1.1"
+    version "0.1.1"
     url "https://github.com/wsjcpp/wsjcpp/archive/v0.1.1.tar.gz"
     sha256 "cf484645f3d857201a4e3302abbfd32bb1a61534cef262a0882902df4d99e58c"
     head "https://github.com/wsjcpp/wsjcpp.git", :branch => "master"
