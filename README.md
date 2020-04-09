@@ -1,5 +1,5 @@
 # homebrew-wsjcpp
-Homebrew formula for wsjcpp "yet one c++ source manager" https://github.com/wsjcpp/wsjcpp
+Homebrew formula for wsjcpp "yet another... c++ source manager" https://github.com/wsjcpp/wsjcpp
 
 Just execute `brew tap wsjcpp/wsjcpp` and `brew install wsjcpp`.
 
