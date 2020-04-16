@@ -14,3 +14,7 @@ shasum -a 256 v0.1.3.tar.gz
 ```
 $ brew audit --strict wsjcpp
 ```
+
+Comment from BrewTestBot
+
+GitHub repository not notable enough (<30 forks, <30 watchers and <75 stars)
