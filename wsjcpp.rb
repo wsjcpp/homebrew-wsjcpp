@@ -1,8 +1,8 @@
 class Wsjcpp < Formula
   desc "Yet another... C++ Package Manager"
   homepage "https://github.com/wsjcpp/wsjcpp"
-  url "https://github.com/wsjcpp/wsjcpp/archive/v0.1.4.tar.gz"
-  sha256 "5232b909ef1c40987d8fe172c7e51a50a3741da8a96489bc121dc5598805647f"
+  url "https://github.com/wsjcpp/wsjcpp/archive/v0.1.5.tar.gz"
+  sha256 "1931073ea6beec7fb84508886c3f924fa16dd95a7ba19b285227528ab76cebd7"
   head "https://github.com/wsjcpp/wsjcpp.git", :branch => "master"
 
   bottle do
