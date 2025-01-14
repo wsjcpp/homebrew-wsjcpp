@@ -6,7 +6,7 @@ class Wsjcpp < Formula
   head "https://github.com/wsjcpp/wsjcpp.git", :branch => "master"
 
   bottle do
-    cellar :any
+    # cellar :any
     rebuild 1
   end
 
